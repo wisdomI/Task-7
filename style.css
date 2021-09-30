@@ -373,47 +373,48 @@ hr{
 @media (max-width : 768px) {
     .site-intro{
         background-image: url(images/hero-bg.jpg);
-        height: 400vh;
-        width: 405%;
+        height: 90vh;
+        width: 100%;
         background-size: 110%;
         background-position: 34.74% 0%;
         background-position-y: top;
     }
 
     .menu{
-        width: 380%;
+        width: 90%;
         
     }
     .site-intro .site-intro-texts div{
         font-family: 'Open Sans' ,sans-serif;
-        font-size: 10rem;
+        font-size: 3rem;
         color: white;
         margin-bottom: 0;
-        padding-top: 800px;
-        margin-left: 200px;
+        padding-top: 250px;
+        margin-left: 50px;
     }
     
     .site-intro .site-intro-texts h1 hr{
         color: white;
         margin-left: 0;
-        width: 1500px;
+        width: 400px;
         margin-top: 0;
         background-color: white;
-        height: 30px;
+        height: 10px;
     }
     
     .site-intro .site-intro-texts h1{
         font-family: 'Roboto' ,sans-serif;
-        font-size: 18rem;
+        font-size: 4.5rem;
         font-weight: 900;
         color: white;
         margin-top: 0;
-        margin-left: 200px;
+        margin-left: 50px;
+        margin-bottom: 0;
     }
     
     .svg-imgs{
         display: flex;
-        margin-left: 200px;
+        margin-left: 50px;
     }
     
     .svg-imgs .painting-svg,
@@ -421,27 +422,52 @@ hr{
     .svg-imgs .plumbing-svg{
         font-family: 'Roboto' ,sans-serif;
         color: white;
-        padding: 0 50px 50px 100px;
-        line-height: 4rem;
+        padding: 0 30px 20px 30px;
+        line-height: 1rem;
         font-weight: 300;
-        font-size: 3rem;
+        font-size: 1rem;
+        margin-top: 0;
     }
 
     .svg-imgs .painting-svg img,
     .svg-imgs .cleaning-svg img,
     .svg-imgs .plumbing-svg img{
-        height: 300px;
-        width: 300px;
+        height: 50px;
+        width: 50px;
     }
     
 
     .our-services{
-        width: 405%;
-        height: 150vh;
+        width: 100%;
+        height: 70vh;
+    }
+
+    .our-services .our-services-text{
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .our-services .our-services-text h6{
+        width: fit-content;
+        padding: 0;
+        align-items: center;
+        justify-items: center;
+        margin: 70px 300px 20px 300px;
+    }
+
+    .our-services .our-services-text h2{
+        width: fit-content;
+        padding: 0;
+        margin: 0 50px 50px 70px;
+    }    
+
+    .our-services .our-services-text p{
+        font-size: 1rem;
+        font-weight: 200;
     }
     
     .help{
-        width: 405%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -456,146 +482,178 @@ hr{
     .help .help1 img{
         width: 100%;
         margin-left: 0;
-        height: 30%;
+        height: 100%;
     }
 
     .help .help2 img{
-        width: 100%;
-        margin-left: 0;
-        height: 30%;
+        width: 80%;
+        margin-left: 120px;
+        height: 100%;
+        
     }
 
     .help .help1 .help1-text {
-        font-size: 4rem;
-        width: 5000px;
-        line-height: 4rem;
+        font-size: 1rem;
+        font-weight: 300;
+        width: 100%;
+        line-height: 1rem;
+        margin-left: 30px;
+        margin-top: 30px;
+        padding: 0;
     }
 
     .help .help2 .help2-text1,
     .help .help2 .help2-text2{
         text-align: left;
-        font-size: 10rem;
+        font-size: 2rem;
         word-spacing: 5px;
-        padding-left: 240px;
-        font-size: 7rem;
+        padding-left: 0;
+        margin-left: 160px;
+    }
+
+    .help .help2 .help2-text2{
+        margin-bottom: 50px;
     }
 
     .best{
-        width: 405%;
-        height: 330vh;
+        width: 100%;
+        height: 100vh;
     }
 
     .best .best-texts p{
-        width: 405%;
+        width: 100%;
     }
 
     .best .best-image img{
-        height: 1100px;
-        width: 700px;
-        margin-left: 300px;
+        height: 600px;
+        width: 300px;
+        margin-left: 0;
     }
 
     .best h1 div{
-        width: 100px;
+        width: 30%;
         font-family: 'Roboto' ,sans-serif;
         margin: 0 0 30px 0;
         font-weight: 700;
-        font-size: 10rem;
+        font-size: 3rem;
         color: #104e92;
         justify-content: center;
         padding-left: 0px;
         padding-top: 70px;
     }
 
+    .best h1{
+        padding-left: 10px;
+    }
+
     .best .best-texts p{
-        font-size: 3rem;
-        line-height: 3rem;
-        width: 1000px;
+        font-size: 1rem;
+        line-height: 1rem;
+        width: 90%;
+        padding-left: 0;
+        margin-left: 10px;
     }
     
     .best .best-texts button{
         background-color:#e71a23;
         color: white;
-        height: 100px;
-        width: 300px;
+        height: 60px;
+        width: 150px;
         border: none;
         border-radius: 5px;
         font-family: 'Open Sans',sans-serif;
-        font-size: 2rem;
+        font-size: 0.8rem;
         font-weight: bold;
-        margin: 20px 0 0 50px;
-        padding: 16px 36px;
+        margin: 20px 0 0 10px;
     }
 
     hr{
         color: #e71a23;
-        height: 20px;
-        width: 100vw;
+        height: 10px;
+        width: 18rem;
         background-color: #e71a23;
         border: none;
         margin-top: 20px;
+        margin-bottom: 10px;
         margin-left: 0%;
     }
 
     .our-services2{
-        width: 405px;
-        height: 300vh;
+        width: 100%;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         justify-items: center;
-        margin-left: 500px;
+        margin-left: 0;
     }
 
     .our-services2 .our-services2-icons .painting p,
     .our-services2 .our-services2-icons .electrical p,
     .our-services2 .our-services2-icons .repair p{
         justify-content: center;
-        width: 600px;
-        font-size: 3rem;
+        width: 100%;
+        font-size: 1rem;
+        margin-top: 0;
     }
 
     .our-services2 h1{
-        font-size: 5rem;
-        width: 500px;
+        font-size: 2rem;
+        width: 100%;
         margin-top: 100px;
+    }
+
+    .our-services2 .our-services2-icons{
+        margin: 0;
+    }
+
+    .our-services2 .our-services2-header{
+        margin-left: 0;
     }
 
     .our-services2 .our-services2-icons .painting h6,
     .our-services2 .our-services2-icons .electrical h6,
     .our-services2 .our-services2-icons .repair h6{
-        font-size: 4rem;
-        padding: 20px;
+        font-size: 1rem;
+        padding: 5px;
     }
 
     .our-services2 .our-services2-icons .painting img,
     .our-services2 .our-services2-icons .electrical img,
     .our-services2 .our-services2-icons .repair img{
-        height: 200px;
-        width: 200px;
-        border-radius: 100px;
+        height: 100px;
+        width: 100px;
+        border-radius: 50px;
+        margin-left: 0;
     }
 
     .about-us{
-        width: 405%;
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
 
-    .about-us-texts{
+    .about-us .about-us-texts{
         display: flex;
         flex-direction: column;
+        padding: 5px;
+        margin-left: 70px;
+        margin-bottom: 20px;
     }
 
     .about-us .about-us-texts h5{
-        font-size: 4rem;
+        font-size: 1.5rem;
         padding: 0;
     }
 
     .about-us .about-us-texts div h1,
     .about-us .about-us-texts div h2{
-        font-size: 15rem;
-        padding-right: 50px;
+        font-size: 3.5rem;
+        padding-right: 10px;
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 0;
     }
+
     .about-us-texts div{
         display: flex;
         flex-direction: row;
@@ -603,65 +661,67 @@ hr{
 
     .about-us .about-us-images .img-row1 img,
     .about-us .about-us-images .img-row2 img{
-        height: 1300px;
-        width: 1300px;
+        height: 250px;
+        width: 300px;
         display: flex;
-        margin-left: 100px;
-        margin-bottom: 100px
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 20px
     }
 
     .to-do{
-        width: 405%;
+        width: 100%;
     }
 
     .to-do .to-do-text1{
-        font-size: 8rem;
+        font-size: 2rem;
     }
 
     .to-do .to-do-text2{
-        font-size: 6rem;
-        line-height: 7rem;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
     }
 
     .to-do .to-do-buttons .button2,
     .to-do .to-do-buttons .button1{
-        height: 200px;
-        width: 400px;
-        font-size: 3rem;
+        height: 50px;
+        width: 150px;
+        font-size: 1rem;
         margin-right: 10px;
     }
 }
 
-@media (max-width : 360px) {
+@media (max-width : 320px) {
     .menu{
-        width: 380%;
+        width: 90%;
     }
 
     .site-intro .site-intro-texts div{
         font-family: 'Open Sans' ,sans-serif;
-        font-size: 7rem;
+        font-size: 2rem;
         color: white;
         margin-bottom: 0;
-        padding-top: 1100px;
-        margin-left: 150px;
+        padding-top: 400px;
+        margin-left: 30px;
     }
     
     .site-intro .site-intro-texts h1 hr{
         color: white;
         margin-left: 0;
-        width: 950px;
+        width: 90%;
         margin-top: 0;
         background-color: white;
         height: 30px;
+        height: 10px;
     }
     
     .site-intro .site-intro-texts h1{
         font-family: 'Roboto' ,sans-serif;
-        font-size: 13rem;
+        font-size: 3rem;
         font-weight: 900;
         color: white;
         margin-top: 0;
-        margin-left: 150px;
+        margin-left: 28px;
     }
     
     .svg-imgs{
@@ -672,39 +732,63 @@ hr{
     
     .site-intro{
         background-image: url(images/hero-bg.jpg);
-        width: 415%;
-        height: 300vh;
+        width: 100%;
+        height: 100vh;
         background-size: cover;
-        background-position: right;
+        background-position: 80%;
     }
 
     .our-services{
-        height: 230vh;
-        width: 415%;
+        height: 70vh;
+        width: 100%;
+    }
+
+    .our-services-text{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 0;
     }
 
     .our-services .our-services-text h6{
-        font-size: 2rem;
-        margin: 50px 0 0 0;
+        font-size: 1rem;
+        width: 200px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding-bottom: 0;
+        padding-right: 0px;
+        margin-right: 0px;
+        margin-left: 30px;
+        padding-left: 0;
+        padding-top: 20px;
+
     }
+
     .our-services .our-services-text h2{
-        display: flex;
-        font-size: 5rem;
+        font-family: 'Roboto' ,sans-serif;
+        font-size: 2.5rem;
         font-weight: bold;
-        width: 500px;
+        width: 250px;
+        margin-left: 20px;
         text-align: center;
-        margin-top: 0%;
+        margin-top: 0;
+        padding-right: 0px;
+        margin-right: 0px;
+        margin-left: 25px;
+        padding-top: 0;
+        padding-left: 0;
+        padding-bottom: 0;
+        margin-bottom: 10px;
+        margin-top: 10px;
     }
 
     .our-services .our-services-text p{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        font-size: 2rem;
-        line-height: 3rem;
-        width: 700px;
-        margin-left: 250px;
+        font-size: 1rem;
+        width: 280px;
+        margin-left: 0;
         margin-top: 0;
+        padding-top: 0;
+        justify-content: center;
     }
 
     .our-services .our-services-text button{
@@ -715,51 +799,120 @@ hr{
     .help {
         display: flex;
         flex-direction: column;
+        padding-left: 0;
+        width: 100%;
     }
 
-    .help1 img,
-    .help2 img{
-        height: 1000px;
-        width: 1000px;
+    .help .help1,
+    .help .help2{
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .help .help1 img,
+    .help .help2 img{
+        height: 350px;
+        width: 295px;
+        padding-left: 0;
+        margin-left: 0;
     }
 
     .help .help1 .help1-text{
-        font-size: 2.5rem;
-        width: 900px;
+        font-family: 'Open Sans' ,sans-serif;
+        font-size: 1rem;
+        line-height: 1rem;
+        width: 305px;
+        margin-left: 5px;
+        padding-left: 0;
     }
 
     .help .help2 .help2-text1{
-        font-size: 5rem;
+        font-size: 1.5rem;
+        margin-left: 0;
+        padding-left: 0;
     }
 
     .help .help2 .help2-text2{
-        font-size: 4rem;
+        font-size: 1.2rem;
+        margin-left: 0;
+        padding-left: 0;
+        padding-bottom: 0;
+        margin-bottom: 10px;
     }
 
     .best{
         display: flex;
         flex-direction: column;
-        height: 450vh;
+        height: 115vh;
+        width: 100%;
+    }
+
+    .best .best-image img{
+        height: 250px;
+        width: 150px;
+        margin-left: 0;
+        margin-top: 20px;
+        padding-left: 0;
+        align-items: center;
     }
 
     .best-texts{
-        margin-left: 100px;
+        margin-left: 0;
+    }
+
+    .best-texts h1 div{
+        font-size: 2rem;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    .best-texts h1{
+        padding-top: 20px;
+        margin-left: 20px;
+        padding-left: 0;
+        padding-bottom: 0;
     }
 
     .best-texts hr{
-        width: 800px;
+        width: 250px;
+        margin-left: 0px;
+        margin-top: 0;
+        padding-top: 0;
+        padding-left: 0;
+        height: 10px;
+    }
+
+    .best .best-texts p{
+        font-size: 1rem;
+        line-height: 1.2rem;
+        width: 250px;
+        margin-left: 20px;
+    }
+
+    .best .best-texts button{
+        height: 50px;
+        width: 110px;
+        margin-left: 20px;
+        font-size: 0.4rem;
+
     }
 
     .our-services2{
         display: flex;
         flex-direction: column;
-        height: 500vh;
-        margin-left: 150px;
+        height: 190vh;
+        width: 100%;
+        padding-left: 0;
+        margin-left: 0;
     }
 
-    .our-services2-header{
+    .our-services2 .our-services2-header{
         margin-left: 0;
         margin-bottom: 70px;
+        font-size: 2rem;
+        padding-left: 0;
+        width: fit-content;
     }
 
     .our-services2 .our-services2-icons{
@@ -772,18 +925,20 @@ hr{
     .our-services2 .our-services2-icons .painting,
     .our-services2 .our-services2-icons .repair{
         margin-left: 0;
-        width: 500px;
-        height: 800px;
-        font-size: 4rem;
+        margin-bottom: 5px;
+        width: 300px;
     }
 
     .our-services2 .our-services2-icons .electrical p,
     .our-services2 .our-services2-icons .painting p,
     .our-services2 .our-services2-icons .repair p{
-        font-size: 3rem;
-        line-height: 4rem;
-        width: 1000px;
+        font-size: 1rem;
+        line-height: 1rem;
+        width: 300px;
         margin-top: 5px;
+        margin-bottom: 10px;
+        font-family: 'Open Sans' ,sans-serif;
+        font-style: italic;
     }
 
     .our-services2 .our-services2-icons .electrical h6,
@@ -791,16 +946,44 @@ hr{
     .our-services2 .our-services2-icons .repair h6{
         margin-bottom: 10px;
         margin-top: 10px;
+        font-size: 2rem;
+        font-family: 'Roboto' ,sans-serif;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .our-services2 .our-services2-icons .electrical img,
+    .our-services2 .our-services2-icons .painting img,
+    .our-services2 .our-services2-icons .repair img{
+        height: 70px;
+        width: 70px;
     }
 
     .about-us{
         display: flex;
         flex-direction: column;
-        width: 415%;
+        width: 100%;
     }
 
     .about-us .about-us-texts h5{
         margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 60px;
+        font-size: 1rem;
+        align-items: center;
+    }
+
+    .about-us .about-us-texts{
+        margin-left: 30px;
+        padding-left: 0;
+        padding-bottom: 20px;
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+
+    .about-us .about-us-images{
+        margin-top: 0;
     }
 
     .about-us .about-us-images .img-row1,
@@ -811,32 +994,66 @@ hr{
 
     .about-us .about-us-images .img-row1 img,
     .about-us .about-us-images .img-row2 img{
-        width: 1000px;
-        height: 1000px;
+        width: 200px;
+        height: 250px;
+        padding-left: 0;
+        margin-left: 0;
+        margin-bottom: 0;
+        
     }
 
     .about-us .about-us-texts div{
         display: flex;
         flex-direction: column;
         margin-left: 0;
+        padding-left: 0;
     }
 
     .about-us .about-us-texts div h1{
         margin-top: 0;
         margin-left: 0;
+        padding-left: 0;
         margin-bottom: 10px;
-        font-size: 10rem;
+        font-size: 3rem;
     }
 
     .about-us .about-us-texts div h2{
         margin-top: 0;
         margin-bottom: 0;
-        font-size: 10rem;
+        padding-left: 0;
+        font-size: 3rem;
+    }
+
+    .to-do{
+        width: 100%;
+    }
+
+    .to-do .to-do-text1{
+        font-size: 2rem;
+        font-family: 'Roboto' ,sans-serif;
+    }
+
+    .to-do .to-do-text2{
+        font-size: 1rem;
+        line-height: 1.2rem;
     }
 
     .to-do .to-do-buttons{
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .to-do .to-do-buttons .button1{
+        width: 150px;
+        height: 50px;
+        font-size: 1rem;
+        margin-bottom: 30px;
+    }
+
+    .to-do .to-do-buttons .button2{
+        width: 150px;
+        height: 50px;
+        font-size: 1rem;
     }
 }
