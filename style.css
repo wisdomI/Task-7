@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .menu{
     display: flex;
     flex-direction: row;
@@ -370,7 +376,7 @@ hr{
     margin: 10px;
 }
 
-@media (max-width : 768px) {
+@media (max-width : 769px) {
     .site-intro{
         background-image: url(images/hero-bg.jpg);
         height: 90vh;
@@ -591,39 +597,44 @@ hr{
     .our-services2 .our-services2-icons .electrical p,
     .our-services2 .our-services2-icons .repair p{
         justify-content: center;
-        width: 100%;
+        width: 90%;
         font-size: 1rem;
+        line-height: 1.8rem;
         margin-top: 0;
+        margin-left: 20px;
     }
 
     .our-services2 h1{
-        font-size: 2rem;
-        width: 100%;
+        font-size: 3rem;
+        width: fit-content;
         margin-top: 100px;
+        margin-left: 0px
     }
 
     .our-services2 .our-services2-icons{
-        margin: 0;
+        margin-left: 25px;
     }
 
     .our-services2 .our-services2-header{
-        margin-left: 0;
+        margin-left: 50px;
+        font-size: 4rem;
     }
 
     .our-services2 .our-services2-icons .painting h6,
     .our-services2 .our-services2-icons .electrical h6,
     .our-services2 .our-services2-icons .repair h6{
         font-size: 1rem;
-        padding: 5px;
+        padding: 0px;
+        margin-left: 20px;
     }
 
     .our-services2 .our-services2-icons .painting img,
     .our-services2 .our-services2-icons .electrical img,
     .our-services2 .our-services2-icons .repair img{
-        height: 100px;
-        width: 100px;
+        height: 70px;
+        width: 70px;
         border-radius: 50px;
-        margin-left: 0;
+        margin-left: 20px;
     }
 
     .about-us{
@@ -691,37 +702,36 @@ hr{
     }
 }
 
-@media (max-width : 320px) {
+@media (max-width : 426px) {
     .menu{
         width: 90%;
     }
 
     .site-intro .site-intro-texts div{
         font-family: 'Open Sans' ,sans-serif;
-        font-size: 2rem;
+        font-size: 2.5rem;
         color: white;
         margin-bottom: 0;
         padding-top: 400px;
-        margin-left: 30px;
+        margin-left: 70px;
     }
     
     .site-intro .site-intro-texts h1 hr{
         color: white;
         margin-left: 0;
-        width: 90%;
+        width: 85%;
         margin-top: 0;
         background-color: white;
-        height: 30px;
         height: 10px;
     }
     
     .site-intro .site-intro-texts h1{
         font-family: 'Roboto' ,sans-serif;
-        font-size: 3rem;
+        font-size: 4rem;
         font-weight: 900;
         color: white;
         margin-top: 0;
-        margin-left: 28px;
+        margin-left: 70px;
     }
     
     .svg-imgs{
@@ -758,7 +768,7 @@ hr{
         padding-bottom: 0;
         padding-right: 0px;
         margin-right: 0px;
-        margin-left: 30px;
+        margin-left: 120px;
         padding-left: 0;
         padding-top: 20px;
 
@@ -774,7 +784,7 @@ hr{
         margin-top: 0;
         padding-right: 0px;
         margin-right: 0px;
-        margin-left: 25px;
+        margin-left: 100px;
         padding-top: 0;
         padding-left: 0;
         padding-bottom: 0;
@@ -784,8 +794,8 @@ hr{
 
     .our-services .our-services-text p{
         font-size: 1rem;
-        width: 280px;
-        margin-left: 0;
+        width: 330px;
+        margin-left: 50px;
         margin-top: 0;
         padding-top: 0;
         justify-content: center;
@@ -811,10 +821,10 @@ hr{
 
     .help .help1 img,
     .help .help2 img{
-        height: 350px;
+        height: 300px;
         width: 295px;
         padding-left: 0;
-        margin-left: 0;
+        margin-left: 40px;
     }
 
     .help .help1 .help1-text{
@@ -822,19 +832,19 @@ hr{
         font-size: 1rem;
         line-height: 1rem;
         width: 305px;
-        margin-left: 5px;
+        margin-left: 40px;
         padding-left: 0;
     }
 
     .help .help2 .help2-text1{
         font-size: 1.5rem;
-        margin-left: 0;
+        margin-left: 40px;
         padding-left: 0;
     }
 
     .help .help2 .help2-text2{
         font-size: 1.2rem;
-        margin-left: 0;
+        margin-left: 40px;
         padding-left: 0;
         padding-bottom: 0;
         margin-bottom: 10px;
@@ -843,15 +853,16 @@ hr{
     .best{
         display: flex;
         flex-direction: column;
-        height: 115vh;
+        height: 125vh;
         width: 100%;
     }
 
     .best .best-image img{
-        height: 250px;
-        width: 150px;
+        height: 300px;
+        width: 250px;
         margin-left: 0;
         margin-top: 20px;
+        margin-bottom: 50px;
         padding-left: 0;
         align-items: center;
     }
@@ -861,22 +872,23 @@ hr{
     }
 
     .best-texts h1 div{
-        font-size: 2rem;
+        font-size: 3rem;
         margin-bottom: 0;
+        margin-left: 30px;
         padding-bottom: 0;
         padding-top: 0;
     }
 
     .best-texts h1{
         padding-top: 20px;
-        margin-left: 20px;
+        margin-left: 30px;
         padding-left: 0;
         padding-bottom: 0;
     }
 
     .best-texts hr{
         width: 250px;
-        margin-left: 0px;
+        margin-left: 30px;
         margin-top: 0;
         padding-top: 0;
         padding-left: 0;
@@ -887,30 +899,31 @@ hr{
         font-size: 1rem;
         line-height: 1.2rem;
         width: 250px;
-        margin-left: 20px;
+        margin-left: 60px;
     }
 
     .best .best-texts button{
         height: 50px;
-        width: 110px;
-        margin-left: 20px;
-        font-size: 0.4rem;
+        width: 150px;
+        margin-left: 60px;
+        font-size: 0.8rem;
 
     }
 
     .our-services2{
         display: flex;
         flex-direction: column;
-        height: 190vh;
+        height: 170vh;
         width: 100%;
         padding-left: 0;
         margin-left: 0;
     }
 
     .our-services2 .our-services2-header{
-        margin-left: 0;
+        margin-left: 50px;
         margin-bottom: 70px;
-        font-size: 2rem;
+        margin-top: 50px;
+        font-size: 3rem;
         padding-left: 0;
         width: fit-content;
     }
@@ -918,7 +931,7 @@ hr{
     .our-services2 .our-services2-icons{
         display: flex;
         flex-direction: column;
-        margin-left: 0;
+        margin-left: 50px;
     }
 
     .our-services2 .our-services2-icons .electrical,
@@ -933,7 +946,7 @@ hr{
     .our-services2 .our-services2-icons .painting p,
     .our-services2 .our-services2-icons .repair p{
         font-size: 1rem;
-        line-height: 1rem;
+        line-height: 1.7rem;
         width: 300px;
         margin-top: 5px;
         margin-bottom: 10px;
@@ -966,7 +979,7 @@ hr{
     }
 
     .about-us .about-us-texts h5{
-        margin-left: 0;
+        margin-left: 30px;
         padding-left: 0;
         padding-right: 0;
         margin-top: 60px;
@@ -994,8 +1007,8 @@ hr{
 
     .about-us .about-us-images .img-row1 img,
     .about-us .about-us-images .img-row2 img{
-        width: 200px;
-        height: 250px;
+        width: 350px;
+        height: 300px;
         padding-left: 0;
         margin-left: 0;
         margin-bottom: 0;
@@ -1005,7 +1018,7 @@ hr{
     .about-us .about-us-texts div{
         display: flex;
         flex-direction: column;
-        margin-left: 0;
+        margin-left: 30px;
         padding-left: 0;
     }
 
@@ -1014,18 +1027,19 @@ hr{
         margin-left: 0;
         padding-left: 0;
         margin-bottom: 10px;
-        font-size: 3rem;
+        font-size: 4rem;
     }
 
     .about-us .about-us-texts div h2{
         margin-top: 0;
         margin-bottom: 0;
         padding-left: 0;
-        font-size: 3rem;
+        font-size: 4rem;
     }
 
     .to-do{
         width: 100%;
+        height: 130vh;
     }
 
     .to-do .to-do-text1{
@@ -1034,8 +1048,12 @@ hr{
     }
 
     .to-do .to-do-text2{
-        font-size: 1rem;
-        line-height: 1.2rem;
+        font-size: 2rem;
+        line-height: 2.5rem;
+        width: 75%;
+        margin-left: 50px;
+        margin-bottom: 50px;
+        
     }
 
     .to-do .to-do-buttons{
@@ -1045,14 +1063,15 @@ hr{
     }
 
     .to-do .to-do-buttons .button1{
-        width: 150px;
+        width: 200px;
         height: 50px;
         font-size: 1rem;
         margin-bottom: 30px;
+        margin-bottom: 50px;
     }
 
     .to-do .to-do-buttons .button2{
-        width: 150px;
+        width: 200px;
         height: 50px;
         font-size: 1rem;
     }
