@@ -139,6 +139,10 @@
     margin-right: 30px;
 }
 
+.help .help2{
+    margin-right: 130px;
+}
+
 .help .help1 p{
     padding-left: 100px;
     padding-top: 50px;
@@ -146,6 +150,7 @@
     color: #111111;
     font-weight: bold;
     line-height: 1.6rem;
+    width: 70%;
 }
 
 .help .help2 .help2-text1{
